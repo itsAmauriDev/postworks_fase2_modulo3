@@ -1,8 +1,8 @@
 # postworks_fase2_m2
 # Repositorio con material de evalución de las sesiones de la fase II, modulo II.
-# Equipo 9
-# Integrantes:
-# Víctor Jesús Sánchez Martínez
-# Ivan Emmanuel Encarnación García
-# Jorge Amaury Guillen Morales
+Equipo 9
+Integrantes:
+Víctor Jesús Sánchez Martínez
+Ivan Emmanuel Encarnación García
+Jorge Amaury Guillen Morales
 
