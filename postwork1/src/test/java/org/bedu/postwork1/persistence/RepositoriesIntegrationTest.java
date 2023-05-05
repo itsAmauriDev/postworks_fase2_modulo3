@@ -42,21 +42,21 @@ class RepositoriesIntegrationTest {
     }
 
     @Test
-    @DisplayName("Prueba de humo")
+    @DisplayName("Test de inserciones")
     void smokeTest(){
         Estudiante estudiante = new Estudiante();
-        estudiante.setNombreCompleto("Estudiante Uno");
+        estudiante.setNombreCompleto("Estudiante 2023");
         estudianteRepository.save(estudiante);
 
         Materia materia = new Materia();
-        materia.setNombre("Materia");
+        materia.setNombre("Programacion funcional");
         materiaRepository.save(materia);
 
         Curso curso = new Curso();
         curso.setCiclo("2030");
         curso.setMateria(materia);
         Map<Estudiante, Integer> calificaciones = new HashMap<>();
-        calificaciones.put(estudiante, Curso.NO_CALIFICADO);
+        calificaciones.put(estudiante, 90);
         curso.setCalificaciones(calificaciones);
         cursoRepository.save(curso);
 
