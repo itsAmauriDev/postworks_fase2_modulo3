@@ -37,6 +37,7 @@ class ReporteCalificacionesTest {
         calificaciones.put(ESTUDIANTE_2, 4);
         calificaciones.put(ESTUDIANTE_3, 9);
 
+
         CURSO.setCalificaciones(calificaciones);
 
         reporte1 = new ReporteCalificaciones.Reporte("Rosa", 6);
