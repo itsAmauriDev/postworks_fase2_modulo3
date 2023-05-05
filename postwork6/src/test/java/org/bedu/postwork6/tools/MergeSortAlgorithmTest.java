@@ -46,7 +46,7 @@ class MergeSortAlgorithmTest {
     }
 
     @Test
-    @DisplayName("Ordena colección con un comparador")
+    @DisplayName("Ordena colección mediante comparador")
     void sortsCollectionWithComparable() {
 
         List<Custom> customUnsorted = unsorted.stream()
