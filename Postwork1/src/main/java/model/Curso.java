@@ -4,6 +4,7 @@ package model;
 import javax.persistence.*;
 import javax.validation.constraints.Size;
 import java.util.Map;
+
 import java.util.Objects;
 
 @Entity
